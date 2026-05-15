@@ -87,9 +87,151 @@
     			</section>
 
 			</div>
-		</div>
-				<div class="md:col-span-1 space-y-8">
-					</div>
-			</div>
+	
+			<aside class="lg:col-span-1 bg-slate-50 p-6 rounded-xl border border-slate-100 space-y-8">
+				<section>
+					<h2 class="text-xl font-bold text-slate-800 mb-4">Kompetenzen</h2>
+					<div class="flex flex-wrap gap-2">
+						<span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5py-0.5 rounded">C</span>
+						<span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5py-0.5 rounded">Html & CSS</span>
+						<span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5py-0.5 rounded">Python</span>
+						<span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0.5 rounded">Assembly</span>
+						<span class="bg-slate-200 text-slate-700 text-xs font-semibold px-2.5 py-0.5 rounded">Word</span>
+						<span class="bg-slate-200 text-slate-700 text-xs font-semibold px-2.5 py-0.5 rounded">Excel</span>
+						<span class="bg-slate-200 text-slate-700 text-xs font-semibold px-2.5 py-0.5 rounded">Powerpoint</span>
+				</section>
+
+				<section>
+					<h2 class="text-xl font-bold text-slate-800 mb-4">Sprachen</h2>
+					<ul class="space-y-3 text-sm text-slate-600">
+						<li class="flex justify-between items-center">
+							<span class="font-medium">Französisch</span>
+							<span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded">Muttersprache</span>
+						</li>
+						<li class="flex justify-between items-center">
+							<span class="font-medium">Englisch</span>
+							<span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">B2/C1</span>
+						</li>
+						<li class="flex justify-between items-center">
+							<span class ="font-medium">Deutsch</span>
+							<span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">B2</span>
+						</li>
+					</ul>
+				</section>
+
+				</section>
+					<h2 class="text-xl font-bold text-slate-800 mb-4">Soft Skills</h2>
+					<ul class="list-disc list-inside text-sm text-slate-600 space-y-1">
+						<li>Anpassungsfähigkeit</li>
+						<li>Schnelle Auffassungsgabe</li>
+						<li>Teamfähigkeit</li>
+					</ul>
+				</section>
+
+			</aside>
+
+		</main>
+	</div>
+
+	<footer class="text-center text-slate-500 text-sm py-8">
+		<p>&copy; 2026 Raphaël Gimbergues. Erstellt für HTW Saar / ISFATES.</p>
+	</footer>   
+
+<script>
+
+	document.addEventListener('DOMContentLoaded', () => {
+            console.log("Tralate OK !");
+
+    const translations = {
+        de: {
+			"job-title": "Informatikstudent",
+                "birth-label": "Geb:",
+                "age-label": "18 Jahre alt",
+                "title-profile": "Profil",
+                "desc-profile": "Motivierter Informatikstudent an der HTW Saar; bilinguale Schulausbildung (Deutsch & Französisch).",
+                "title-exp": "Berufserfahrung",
+                "exp1-title": "Vielseitiger Mitarbeiter - Burger King",
+                "exp1-date": "Nov 2024 – Juni 2025",
+                "exp2-title": "Volleyballschiedsrichter - FFVB",
+                "title-edu": "Ausbildung",
+                "edu1-title": "Baccalauréat général (Französisches Abitur)",
+                "title-skills": "Kompetenzen",
+                "title-lang": "Sprachen",
+                "lang1-name": "Französisch",
+                "lang1-level": "Muttersprache",
+                "lang2-name": "Englisch",
+                "lang3-name": "Deutsch",
+                "title-soft": "Soft Skills",
+                "soft1": "Anpassungsfähigkeit",
+                "soft2": "Schnelle Auffassungsgabe",
+                "soft3": "Teamfähigkeit",
+                "footer-text": "Erstellt für HTW Saar / ISFATES."
+            },
+            fr: {
+                "job-title": "Étudiant en Informatique",
+                "birth-label": "Né le :",
+                "age-label": "18 ans",
+                "title-profile": "Profil",
+                "desc-profile": "Étudiant en informatique motivé à la HTW Saar ; cursus scolaire bilingue (allemand & français).",
+                "title-exp": "Expérience Professionnelle",
+                "exp1-title": "Employé polyvalent - Burger King",
+                "exp1-date": "Nov 2024 – Juin 2025",
+                "exp2-title": "Arbitre de Volleyball - FFVB",
+                "title-edu": "Formation",
+                "edu1-title": "Baccalauréat général",
+                "title-skills": "Compétences",
+                "title-lang": "Langues",
+                "lang1-name": "Français",
+                "lang1-level": "Langue maternelle",
+                "lang2-name": "Anglais",
+                "lang3-name": "Allemand",
+                "title-soft": "Qualités",
+                "soft1": "Capacité d'adaptation",
+                "soft2": "Compréhension rapide",
+                "soft3": "Esprit d'équipe",
+                "footer-text": "Créé pour la HTW Saar / ISFATES."
+            },
+            en: {
+                "job-title": "Computer Science Student",
+                "birth-label": "Born:",
+                "age-label": "18 years old",
+                "title-profile": "Profile",
+                "desc-profile": "Motivated computer science student at HTW Saar; bilingual school education (German & French).",
+                "title-exp": "Work Experience",
+                "exp1-title": "Versatile Team Member - Burger King",
+                "exp1-date": "Nov 2024 – June 2025",
+                "exp2-title": "Volleyball Referee - FFVB",
+                "title-edu": "Education",
+                "edu1-title": "General Baccalaureate (French High School Diploma)",
+                "title-skills": "Skills",
+                "title-lang": "Languages",
+                "lang1-name": "French",
+                "lang1-level": "Native",
+                "lang2-name": "English",
+                "lang3-name": "German",
+                "title-soft": "Soft Skills",
+                "soft1": "Adaptability",
+                "soft2": "Quick learner",
+                "soft3": "Teamwork",
+                "footer-text": "Created for HTW Saar / ISFATES."
+            }
+        };
+
+        function changeLanguage(lang) {
+            document.documentElement.lang = lang;
+            const elementsToTranslate = document.querySelectorAll('[data-i18n]');
+
+            elementsToTranslate.forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+        }
+
+        document.getElementById('langSwitcher').addEventListener('change', function(event) {
+            changeLanguage(event.target.value);
+        });
+</script>
 </body>
 </html>
