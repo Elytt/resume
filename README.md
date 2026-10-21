@@ -11,7 +11,7 @@ To view the resume optimally, you have a simple method:
 ### Method : View locally
 1. **Clone the repository** or download the project’s ZIP archive:
    ```bash
-   git clone <link-to-your-github-repo># resume
+   git clone <https://github.com/Elytt/resume># resume
 This is an interactive resume of my. Coded in html css with some frameworks...
 
 
